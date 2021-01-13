@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de productos</title>
+
+    <!-- Carga de Scripts, CSS, Bootstrap y jQuery -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body onload="allrun()";>
+    
+    <button onclick="togNav()"  id="buttonnav">Abrir/Cerrar Nav</button>
+    
+    <div class="navbar">
+        <a href="https://www.google.com" class="nblink">Iniciar sesi&oacute;n</a><a href="#" class="nblink">Contacto</a>
+    </div>
+    <div id="header">
+        eGames - Tu tienda de videojuegos <br> de segunda mano
+    </div>
+
+    <!-- INICIO PARTE EXCLUSIVA -->
+    
+    <h3>Formulario de compra</h3>
+
+    Por favor, introduzca el art&iacute;culo que desea comprar.
+    <br>
+    <table class="table">
+        <tr>
+            <th>Imagen</th>
+            <th>Art&iacute;culo</th>
+            <th>Stock actual</th>
+            <th>Precio</th>
+            <th>Nº pedidos</th>
+        </tr>
+        <tr>
+            <td><div><img src="img/CrashBash_PS1.png" alt="Crash Bash"></div></td>
+            <td>Crash Bash</td>
+            <td>5 unidades</td>
+            <td>25 &euro;</td>
+            <td>
+                <form>
+                    <input type="number" value="0" id="prod1">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td><div><img src="img/Sims2_PC.png" alt="Sims 2"></div></td>
+            <td>A</td>
+            <td>8 unidades</td>
+            <td>4 &euro;</td>
+            <td>
+                <form>
+                    <input type="number" value="0" id="prod2">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td><div><img src="img/DQ7_3ds.png" alt="Dragon Quest VII"></div></td>
+            <td>Dragon Quest VII</td>
+            <td>2 unidades</td>
+            <td>17 &euro;</td>
+            <td>
+                <form>
+                    <input type="number" value="0" id="prod3">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Precio total</th>
+            <td><input type="button" value="Calcular" onclick="calculo()">
+                <input type="button" value="Restablecer"></td>
+            <td><h4 id="Resultado">&MediumSpace;&euro;</h4></td>
+            
+        </tr>
+    </table>
+
+    <br>
+
+    <div>
+        <h5>Introduzca datos del cliente</h5>
+        Nombre: &MediumSpace;&MediumSpace; <input type="text"><br>
+        Direcci&oacute;n: &MediumSpace;<input type="text"><br>
+        Tel&eacute;fono:&MediumSpace;&MediumSpace; &ThinSpace;<input type="number"><br>
+
+    </div>
+
+    <br>
+    
+    <button onclick=pedir()><a href="product-list.html">Finalizar compra</a></button>
+
+    <!-- FIN DE PARTE EXCLUSIVA -->
+
+    <br><br>
+
+    <div id="footer">&copy; Diego Jos&eacute; Rey L&oacute;pez - Reyld - 2021</div>
+    
+</body>
+</html>
