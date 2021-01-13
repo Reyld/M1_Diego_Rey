@@ -11,7 +11,7 @@ setInterval('allrun()',1);
     else if ((document.getElementById("prod1").value)<0){
         ((document.getElementById("prod1").value)=0);
     }
-    else if ((document.getElementById("prod2").value)>2){
+    else if ((document.getElementById("prod2").value)>8){
         ((document.getElementById("prod2").value)=8);
     }
     else if ((document.getElementById("prod2").value)<0){
