@@ -10,7 +10,9 @@ table{
     margin-left:150px;
     margin-right:60px;
     text-align:center;
-    width: 90%;
+    width: 80%;
+    border-top: black 2px;
+    border-bottom: black 2px;
 }
 
 
@@ -98,9 +100,25 @@ table{
     height:30px;
 }
 
+.nblink3{
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border-right: 2px solid rgb(7, 70, 129);
+    border-bottom: 2px solid rgb(7, 70, 129);
+    width:160px;
+    height:30px;
+    left:200px;
+}
+
 
 #buttonnav{
     position:absolute;
     left: 180px;
     top: 10px;
 }
+
