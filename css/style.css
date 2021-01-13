@@ -66,6 +66,11 @@ table{
     text-decoration: none;
 }
 
+#link1{
+    color:white;
+    text-decoration: none;
+}
+
 #link2 {
     color: black;
     text-decoration: none;
@@ -86,7 +91,35 @@ table{
     height:20px;
 }
 
+.nblink:hover{
+    display:flex;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border-right: 2px solid rgb(7, 70, 129);
+    border-bottom: 2px solid rgb(7, 70, 129);
+    width:138px;
+    height:20px;
+}
+
 .nblink2{
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border-right: 2px solid rgb(7, 70, 129);
+    border-bottom: 2px solid rgb(7, 70, 129);
+    width:160px;
+    height:30px;
+}
+.nblink2:hover{
     align-items:center;  
     color:white;
     text-decoration: none;
@@ -115,10 +148,88 @@ table{
     left:200px;
 }
 
+.nblink3:hover{
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border-right: 2px solid rgb(7, 70, 129);
+    border-bottom: 2px solid rgb(7, 70, 129);
+    width:160px;
+    height:30px;
+    left:200px;
+}
+
+#buttonver{
+    position:absolute;
+    left: 180px;
+    top: 10px;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(9, 133, 9);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border: 2px solid rgb(3, 80, 3);
+}
+
+#buttonedita{
+    position:absolute;
+    left: 180px;
+    top: 10px;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(207, 115, 8);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border: 2px solid rgb(131, 71, 2);
+}
+
+#buttonborra{
+    position:absolute;
+    left: 180px;
+    top: 10px;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(199, 8, 8);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border: 2px solid rgb(112, 2, 2);
+}
 
 #buttonnav{
     position:absolute;
     left: 180px;
     top: 10px;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border: 2px solid rgb(7, 70, 129);
+}
+
+#buttonnav:hover{
+    position:absolute;
+    left: 180px;
+    top: 10px;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border: 2px solid rgb(7, 70, 129);
 }
 

@@ -72,7 +72,7 @@ function pedir(){
 // Botón quitafilas
 $(function () {
 
-    $(".btn-danger").click(function () {
+    $(".buttonborra").click(function () {
         if (confirm("El producto se eliminará. ¿Continuar?")) {
         //    $(this).parent().parent().hide();
             $(this).parent().parent().remove();     // Provisional
