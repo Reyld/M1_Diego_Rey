@@ -120,6 +120,7 @@ table{
     padding: 6px;
     border-radius: 4px;
     font-size:12px;
+    top:16px;
     border-right: 2px solid rgb(7, 70, 129);
     border-bottom: 2px solid rgb(7, 70, 129);
     width:160px;
@@ -169,6 +170,8 @@ table{
     left:200px;
 }
 
+/*
+
 #buttonver{
     position:absolute;
     left: 180px;
@@ -211,6 +214,9 @@ table{
     border: 2px solid rgb(112, 2, 2);
 }
 
+*/
+
+
 #buttonnav{
     position:absolute;
     left: 180px;
@@ -229,6 +235,17 @@ table{
     position:absolute;
     left: 180px;
     top: 10px;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border: 2px solid rgb(7, 70, 129);
+}
+
+#buttonoptions{
     align-items:center;  
     color:white;
     text-decoration: none;

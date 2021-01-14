@@ -17,12 +17,12 @@
 
 </head>
 <body onload="allrun()";>
-    
+    <br>
     <button onclick="togNav()"  id="buttonnav">Abrir/Cerrar Nav</button>
-    <a href="https://www.google.com" class="nblink2">Iniciar sesi&oacute;n</a>&MediumSpace;<a href="#" class="nblink2">Contacto</a>
+    <a href="#" class="nblink2">Iniciar sesi&oacute;n</a>&MediumSpace;<a href="#" class="nblink2">Contacto</a>
     
     <div class="navbar">
-        <a href="https://www.google.com" class="nblink">Iniciar sesi&oacute;n</a><a href="#" class="nblink">Contacto</a>
+        <a href="#" class="nblink">Iniciar sesi&oacute;n</a><a href="#" class="nblink">Contacto</a>
     </div>
     <div id="header">
         eGames - Tu tienda de videojuegos <br> de segunda mano
@@ -32,7 +32,7 @@
     
     <h3>Formulario de compra</h3>
 
-    Por favor, introduzca el art&iacute;culo que desea comprar.
+    Por favor, escoja el art&iacute;culo que desea comprar.
     <br>
     <table>
         <tr>
@@ -77,8 +77,8 @@
         </tr>
         <tr>
             <th colspan="2">Precio total</th>
-            <td><input type="button" value="Calcular" onclick="calculo()">
-                <input type="button" value="Restablecer"></td>
+            <td><input type="button" id="buttonoptions" value="Calcular" onclick="calculo()">
+                <input type="button" id="buttonoptions" value="Restablecer"></td>
             <td><h4 id="Resultado"></h4></td>
             <td><h4>&euro;</h4></td>
             
@@ -97,11 +97,11 @@
 
     <br>
     
-    <button onclick=pedir()><a href="product-list.html">Finalizar compra</a></button>
+    <button id="buttonoptions"><a href="product-list.html" id="link1" onclick=pedir()>Finalizar compra</a></button>
 
     <!-- FIN DE PARTE EXCLUSIVA -->
 
-    <br><br>
+    <br><br><br><br>
 
     <div id="footer">&copy; Diego Jos&eacute; Rey L&oacute;pez - Reyld - 2021</div>
     

@@ -16,13 +16,14 @@
 
 
 </head>
-<body onload="allrun()";>
+<body onload="allrun2()";>
+    <br>
     
     <button onclick="togNav()"  id="buttonnav">Abrir/Cerrar Nav</button>
-    <a href="https://www.google.com" class="nblink2">Iniciar sesi&oacute;n</a>&MediumSpace;<a href="#" class="nblink2">Contacto</a>
+    <a href="#" class="nblink2">Iniciar sesi&oacute;n</a>&MediumSpace;<a href="#" class="nblink2">Contacto</a>
     
     <div class="navbar">
-        <a href="https://www.google.com" class="nblink">Iniciar sesi&oacute;n</a><a href="#" class="nblink">Contacto</a>
+        <a href="#" class="nblink">Iniciar sesi&oacute;n</a><a href="#" class="nblink">Contacto</a>
     </div>
     <div id="header">
         eGames - Tu tienda de videojuegos <br> de segunda mano
@@ -44,11 +45,11 @@
                             <option value="DQ">Dragon Quest VII</option>
                           </select>
                         <h5>Editar descripci&oacute;n</h5>
-                        <input type="textarea">
-                        <h5>Editar precio</h5>
-                        <input type="number">&ThinSpace;&euro;
+                        <textarea rows="4" cols="40"></textarea><br>
+                        <h5>Editar precio (&euro;)</h5>
+                        <input type="number" value="0" step=".01" id="price">
                         <h5>Actualizar stock</h5>
-                        <input type="number">&ThinSpace;unidades.<br><br>
+                        <input type="number" value="0" id="prodedit"><br><br>
                         <input type="submit" class="nblink3">                                  
                     </div>
                 </td>
@@ -56,13 +57,14 @@
                     <div class="formline">
                         <h4>Añadir producto nuevo</h4>
                         <h5>Introduzca nombre del producto</h5>
-                        <input type="text"><br>
+                        <textarea rows="1" cols="30"></textarea>
+                        <br>
                         <h5>Introduzca una descripci&oacute;n para el producto</h5>
-                        <input type="textarea"><br>
-                        <h5>Introduzca el precio del producto</h5>
-                        <input type="number">&ThinSpace;&euro;<br>
+                        <textarea rows="4" cols="40"></textarea><br>
+                        <h5>Introduzca el precio del producto (&euro;)</h5>
+                        <input type="number" value="0" step=".01" id="price"><br>
                         <h5>Introduzca el stock del producto</h5>
-                        <input type="number">&ThinSpace;unidades<br><br>
+                        <input type="number" value="0" id="prodadd"><br><br>
                         <input type="submit" class="nblink3">
             
                     </div>       
