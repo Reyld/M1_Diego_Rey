@@ -24,6 +24,19 @@ setInterval('allrun()',1);
         ((document.getElementById("prod3").value)=0);
     }
 
+    if ((document.getElementById("prodedit").value)<0){
+        ((document.getElementById("prodedit").value)=0);
+    }
+
+    else if ((document.getElementById("prodadd").value)<0){
+        ((document.getElementById("prodadd").value)=0);
+    }
+    
+    else if ((document.getElementById("price").value)<0){
+        ((document.getElementById("price").value)=0);
+    }
+
+
 }
 
 function allrun2(){
