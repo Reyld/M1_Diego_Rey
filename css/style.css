@@ -30,7 +30,7 @@ table{
 
 
 .navbar--open{
-    left:0;
+    left: 0px;
     opacity: 1;
 }
 
@@ -169,52 +169,6 @@ table{
     height:30px;
     left:200px;
 }
-
-/*
-
-#buttonver{
-    position:absolute;
-    left: 180px;
-    top: 10px;
-    align-items:center;  
-    color:white;
-    text-decoration: none;
-    background-color: rgb(9, 133, 9);
-    padding: 6px;
-    border-radius: 4px;
-    font-size:12px;
-    border: 2px solid rgb(3, 80, 3);
-}
-
-#buttonedita{
-    position:absolute;
-    left: 180px;
-    top: 10px;
-    align-items:center;  
-    color:white;
-    text-decoration: none;
-    background-color: rgb(207, 115, 8);
-    padding: 6px;
-    border-radius: 4px;
-    font-size:12px;
-    border: 2px solid rgb(131, 71, 2);
-}
-
-#buttonborra{
-    position:absolute;
-    left: 180px;
-    top: 10px;
-    align-items:center;  
-    color:white;
-    text-decoration: none;
-    background-color: rgb(199, 8, 8);
-    padding: 6px;
-    border-radius: 4px;
-    font-size:12px;
-    border: 2px solid rgb(112, 2, 2);
-}
-
-*/
 
 
 #buttonnav{
