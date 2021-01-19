@@ -17,6 +17,7 @@ table{
 
 
 .navbar{
+    display:block;
     position:fixed;
     top:0px;
     left:-140px;
@@ -209,4 +210,20 @@ table{
     font-size:12px;
     border: 2px solid rgb(7, 70, 129);
 }
+
+#buttonoptions2{
+
+    display:block;
+    align-items:center;  
+    color:white;
+    text-decoration: none;
+    background-color: rgb(38, 118, 194);
+    padding: 6px;
+    border-radius: 4px;
+    font-size:12px;
+    border: 2px solid rgb(7, 70, 129);
+    margin-left:40px;
+    margin-top:30px;
+}
+
 
